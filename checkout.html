@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloudShop - Checkout</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">CloudShop</a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+    <main>
+        <div class="checkout-form">
+            <h2>Checkout</h2>
+            <p class="demo-notice">Demo Payment — No real payment is processed.</p>
+            <form>
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" aria-label="Full Name" required>
+                
+                <label for="checkout-email">Email</label>
+                <input type="email" id="checkout-email" aria-label="Email" required>
+                
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" aria-label="Phone" required>
+                
+                <label for="address">Address</label>
+                <input type="text" id="address" aria-label="Address" required>
+                
+                <label for="city">City</label>
+                <input type="text" id="city" aria-label="City" required>
+                
+                <label for="state">State</label>
+                <input type="text" id="state" aria-label="State" required>
+                
+                <label for="postal-code">Postal Code</label>
+                <input type="text" id="postal-code" aria-label="Postal Code" required>
+                
+                <button id="place-order-btn" type="submit">Place Order</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2026 CloudShop Demo.</p>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>
